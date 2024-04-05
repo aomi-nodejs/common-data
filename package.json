@@ -1,6 +1,6 @@
 {
   "name": "@aomi/common-data",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "./cjs/index.js",
   "module": "./esm/index.js",
   "license": "MIT",
@@ -11,12 +11,13 @@
   "files": [
     "esm",
     "cjs",
+    "types",
     "package.json",
     "README.md",
     "CHANGELOG.md"
   ],
   "exports": {
-    "page": {
+    "./page": {
       "import": "./esm/page.js",
       "types": "./types/page.d.ts",
       "require": "./cjs/page.js"
